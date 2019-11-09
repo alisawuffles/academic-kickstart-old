@@ -37,7 +37,7 @@ links:
 - name: ArXiv
   url: https://arxiv.org/pdf/1910.12626
 url_pdf: https://arxiv.org/pdf/1910.12626.pdf
-url_code: 'https://github.com/pseeth/thesis_experiments/tree/confidence'
+# url_code: 'https://github.com/pseeth/thesis_experiments/tree/confidence'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''

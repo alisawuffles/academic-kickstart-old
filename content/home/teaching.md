@@ -17,16 +17,16 @@ weight = 40
 +++
 <h4>CS 336: Design & Analysis of Algorithms</h4>
 
-_peer mentor_, with Prof. [Jason Hartline](https://sites.northwestern.edu/hartline/)
+_peer mentor_, with Professor [Jason Hartline](https://sites.northwestern.edu/hartline/)
 
 <h4>EECS 349: Machine Learning</h4>
 
-_peer mentor_, with Prof. [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/)
+_peer mentor_, with Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/)
 
 <h4>EECS 396/496: Statistical Machine Learning</h4>
 
-_course developer_, with Prof. [Han Liu](http://magics.cs.northwestern.edu/index.html)
+_course developer_, with Professor [Han Liu](http://magics.cs.northwestern.edu/index.html)
 
 <h4>CPSC 121: Models of Computation</h4>
 
-_undergraduate TA_, with Prof. [Alice Gao](https://cs.uwaterloo.ca/~a23gao/), [Steve Wolfman](https://www.cs.ubc.ca/~wolf/), [Ryan Vogt](https://www.cs.ubc.ca/~vogtr/)
+_undergraduate TA_, with Professors [Alice Gao](https://cs.uwaterloo.ca/~a23gao/), [Steve Wolfman](https://www.cs.ubc.ca/~wolf/), [Ryan Vogt](https://www.cs.ubc.ca/~vogtr/)
