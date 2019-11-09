@@ -54,9 +54,9 @@ email: alisa@u.northwestern.edu
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Interactive Audio Lab
-- WebSAIL
+user_groups: []
 ---
 
-Hi! I am an undergraduate at [Northwestern University](https://www.northwestern.edu/) studying computer science and math, and I identify with the natural language processing and computer audition communities. My current research work includes definition modeling for word compounds, audio captioning, and some tinkering in music generation. I've recently been thinking a lot about developing automatic measures of model confidence and how they can be used to enable different training techniques and incorporate human input. I have been super fortunate to work with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
+Hi! I am an undergraduate at [Northwestern University](https://www.northwestern.edu/) studying computer science and math, and I identify with the natural language processing and computer audition communities. My current research work includes definition modeling for word compounds, audio captioning, and some tinkering in music generation. I've recently been thinking a lot about developing automatic measures of model confidence and how they can be used to enable different training techniques and incorporate human input. I have been super fortunate to work with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/), who have all been the kindest of mentors and completely formative to my intellectual interests.
+
+I journal daily and always wish I had more time to practice piano.
