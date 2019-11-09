@@ -26,7 +26,7 @@ publication_short: manuscript
 abstract: Word embeddings capture syntactic and semantic information about words. Definition modeling aims to make the semantic content in each embedding explicit, by outputting a natural language definition based on the embedding. However, existing definition models are limited in their ability to generate accurate definitions for different senses of the same word. In this paper, we introduce a new method that enables definition modeling for multiple senses. We show how a Gumble-Softmax approach outperforms baselines at matching sense-specific embeddings to definitions during training. In experiments, our multi-sense definition model improves recall over a state-of-the-art single-sense definition model by a factor of three, without harming precision.
 
 # Summary. An optional shortened abstract.
-summary: We introduce a method of definition modeling for multiple senses of a word.
+summary: Definition generation for multiple senses of a word
 
 tags:
 - definition modeling
