@@ -22,10 +22,14 @@ bio: ''
 
 interests:
 - Natural language processing
-- Common sense reasoning
-- Text generation
-- Audio source separation
-- Music generation
+- Machine learning
+- Machine processing of music and audio
+
+education:
+  courses:
+  - course: BA in Computer Science, Mathematics
+    institution: Northwestern University
+    year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
