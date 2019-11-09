@@ -3,7 +3,7 @@ title: Ensemble model for audio source separation
 summary: Built an ensemble model for audio source separation that can handle mixtures whose source domain is unknown, using a confidence measure to mediate among domain-specific models based on deep clustering.
 tags:
 - research
-date: "2019-06-01"
+date: "2019-10-01"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
