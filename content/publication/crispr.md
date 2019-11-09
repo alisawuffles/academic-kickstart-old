@@ -24,7 +24,7 @@ publication_short: CJUR
 abstract: Since its development in 2013, Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) Cas9 gene-editing technologies have dramatically impacted the field of genetics research. CRISPR/Cas9 has received a lot of attention in the news in recent years, and accurate portrayal of this technology by the mainstream media has the potential to shape its perception by the public in a way that is conducive to its possible implementation as a viable tool for genetic engineering. Our aim was to evaluate how the discussion of CRISPR/Cas9 in the mainstream media reflects and compares to that of the academic literature. We surveyed mainstream news articles (n=60) and scientific review articles (n=30) that discussed CRISPR/Cas9. Using an a priori coding scheme, we found that while the news does not accurately reflect the current state of CRISPR/Cas9 research and development, it provides more perspectives and considers broader social implications compared to the academic literature. Therefore, both news media and academic papers provide valuable contributions to the conversation but news articles in particular have the opportunity to improve the accuracy or thoroughness of their coverage on the topic.
 
 # Summary. An optional shortened abstract.
-summary: Comparison of the portrayal of CRISPR/Cas9 in mainstream media and academic literature.
+summary: Comparison of the portrayal of CRISPR/Cas9 in mainstream media and academic literature. (From my pre-med, baby-research days.)
 
 tags:
 - literature review

@@ -3,9 +3,9 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Experience"
+title = "Projects"
 subtitle = ""
 
 # Date format for experience
@@ -18,16 +18,14 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Research Assistant"
+  title = "Peer Mentor"
   company = "Northwestern University"
 # company_url = ""
 # location = "Seattle"
   date_start = "2018-09-01"
   date_end = ""
   description = """
-  1. Developing a neural language model that generates definitions and paraphrases of noun compounds (e.g. “caramel popcorn”).
-  2. Produced an adversarially generated commonsense question-answer dataset, using a novel question acquisition procedure where workers author questions designed to target weaknesses of state-of-the-art neural QA systems.
-  3. Evaluated the settings under which a multi-sense definition modeling system succeeded and failed by investigating whether certain attributes of words and atoms were predictive of model performance.
+  CS 336: Design & Analysis of Algorithms
   """
 
 [[experience]]
