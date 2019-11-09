@@ -18,12 +18,14 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an undergraduate student.
+bio: ''
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Natural language processing
+- Common sense reasoning
+- Text generation
+- Audio source separation
+- Music generation
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -32,7 +34,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'alisa@u.northwestern.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:alisa@u.northwestern.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=3-lTFAwAAAAJ
@@ -53,4 +55,4 @@ user_groups:
 - WebSAIL
 ---
 
-Hi! I am a senior at Northwestern University studying computer science and math, advised by Professor Doug Downey and Professor Bryan Pardo. 
+Hi! I am a senior at Northwestern University studying computer science and math, and I identify with the natural language processing and computer audition communities. My current research includes definition modeling for word compounds, audio captioning, and some tinkering in music generation. I've recently been thinking a lot about developing automatic measures of model confidence and how they can be used to enable different training techniques and incorporate human input. I have been super fortunate to work with Professor Doug Downey, Professor Bryan Pardo, and Dr. Prem Seetharaman.

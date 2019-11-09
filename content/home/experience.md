@@ -18,27 +18,25 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Research Assistant"
+  company = "Northwestern University"
+# company_url = ""
+# location = "Seattle"
+  date_start = "2018-09-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  1. Developing a neural language model that generates definitions and paraphrases of noun compounds (e.g. “caramel popcorn”).
+  2. Produced an adversarially generated commonsense question-answer dataset, using a novel question acquisition procedure where workers author questions designed to target weaknesses of state-of-the-art neural QA systems.
+  3. Evaluated the settings under which a multi-sense definition modeling system succeeded and failed by investigating whether certain attributes of words and atoms were predictive of model performance.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Data Engineer Intern"
+  company = "Amazon"
+# company_url = ""
+# location = "Seattle"
+  date_start = "2018-05-01"
+  date_end = "2018-08-01"
+  description = """Developed and implemented a methodology to employ bluetooth beacons to collect operational metrics at Amazon delivery station."""
 
 +++
