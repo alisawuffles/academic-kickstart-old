@@ -1,5 +1,5 @@
 ---
-title: "Model selection for deep audio source separation via clustering analysis"
+title: "Model Selection for Deep Audio Source Separation via Clustering Analysis"
 authors:
 - admin
 - Prem Seetharaman
@@ -35,7 +35,7 @@ featured: true
 
 links:
 - name: ArXiv
-  url: https://arxiv.org/pdf/1910.12626
+  url: https://arxiv.org/abs/1910.12626
 url_pdf: https://arxiv.org/pdf/1910.12626.pdf
 # url_code: 'https://github.com/pseeth/thesis_experiments/tree/confidence'
 # url_dataset: '#'

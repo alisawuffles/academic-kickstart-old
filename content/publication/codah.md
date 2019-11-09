@@ -35,7 +35,7 @@ featured: true
 
 links:
 - name: ArXiv
-  url: https://arxiv.org/pdf/1904.04365
+  url: https://arxiv.org/abs/1904.04365
 url_pdf: https://arxiv.org/pdf/1904.04365.pdf
 url_code: 'https://github.com/Websail-NU/CODAH'
 # url_dataset: '#'
