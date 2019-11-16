@@ -3,6 +3,7 @@ title: Definition modeling for noun compounds
 summary: Developing a neural language model that generates definitions and paraphrases of noun compounds (e.g. “caramel popcorn”)
 tags:
 - research
+- ongoing
 date: "2019-11-01"
 
 # Optional external URL for project (replaces project detail page).

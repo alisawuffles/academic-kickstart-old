@@ -4,6 +4,7 @@ summary: Using heuristic evaluations of generated music to train a Bach chorale 
 tags:
 - research
 - class project
+- ongoing
 date: "2019-11-01"
 
 # Optional external URL for project (replaces project detail page).
