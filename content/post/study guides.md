@@ -11,6 +11,6 @@ image:
 
 Just sharing some study guides I'm especially proud of, that I've made over the last couple years.
 
-[Math 312: Number Theory (UBC)](../../static/files/study_guides/math_312.pdf)
+[Math 312: Number Theory (UBC)](files/study_guides/math_312.pdf)
 [Math 307: Applications of Linear Algebra (UBC)]()
 [EECS 396: Statistical Machine Learning (Northwestern)]()
