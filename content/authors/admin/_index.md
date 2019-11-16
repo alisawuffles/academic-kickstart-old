@@ -62,4 +62,5 @@ user_groups: []
 
 Hi! I am an undergraduate at [Northwestern University](https://www.northwestern.edu/) studying computer science and math, and I identify with the natural language processing and computer audition communities. My current research work includes definition modeling for word compounds, audio captioning, and some tinkering in music generation. I've recently been thinking a lot about developing automatic measures of model confidence and how they can be used to enable different training techniques and incorporate human input. I have been super fortunate to work with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/), who have been the kindest of mentors and completely formative to my intellectual interests.
 
-I journal daily, dabble in badminton, and am always looking for more time to practice piano. I'm starting a blog in hopes of sharing academic & personal reflections and practicing creative writing about research!
+I journal daily, enjoy making study guides, and am always looking for more time to practice piano.
+<!-- I'm starting a blog in hopes of sharing academic & personal reflections and practicing creative writing about research! -->
