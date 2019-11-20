@@ -4,6 +4,7 @@ summary: Generating natural language captions for audio clips
 tags:
 - research
 - ongoing
+- audio
 date: "2019-11-01"
 
 # Optional external URL for project (replaces project detail page).

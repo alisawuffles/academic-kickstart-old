@@ -5,6 +5,7 @@ tags:
 - research
 - class project
 - ongoing
+- music
 date: "2019-11-01"
 
 # Optional external URL for project (replaces project detail page).

@@ -4,6 +4,7 @@ summary: Developing a neural language model that generates definitions and parap
 tags:
 - research
 - ongoing
+- nlp
 date: "2019-11-01"
 
 # Optional external URL for project (replaces project detail page).

@@ -3,6 +3,7 @@ title: Analysis of error types in multi-sense definition generation
 summary: Evaluated the settings under which a multi-sense definition modeling system succeeded and failed
 tags:
 - research
+- nlp
 date: "2018-12-01"
 
 # Optional external URL for project (replaces project detail page).

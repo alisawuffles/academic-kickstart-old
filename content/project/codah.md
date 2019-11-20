@@ -3,6 +3,7 @@ title: Common sense QA dataset
 summary: Introduced an adversarially generated commonsense question-answer dataset
 tags:
 - research
+- nlp
 date: "2019-06-01"
 
 # Optional external URL for project (replaces project detail page).
