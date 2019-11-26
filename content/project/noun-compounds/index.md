@@ -10,9 +10,10 @@ date: "2019-11-01"
 # Optional external URL for project (replaces project detail page).
 # external_link: ""
 
-# image:
-#  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
+image:
+  caption:
+  focal_point:
+  preview_only: True
 
 # links:
 # - icon: twitter

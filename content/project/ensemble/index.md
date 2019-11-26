@@ -10,8 +10,9 @@ date: "2019-10-01"
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+  caption:
+  focal_point: 
+  preview_only: true
 
 # links:
 # - icon: twitter

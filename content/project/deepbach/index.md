@@ -14,6 +14,7 @@ external_link: ""
 image:
   caption:
   focal_point:
+  preview_only: True
 
 # links:
 # - icon: twitter
