@@ -11,10 +11,10 @@ external_link: ""
 
 image:
   caption:
-  focal_point: 
+  focal_point:
   preview_only: true
 
-# links:
+# links:  
 # - icon: twitter
 #  icon_pack: fab
 #  name: Follow
