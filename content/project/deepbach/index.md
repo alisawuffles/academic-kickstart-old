@@ -34,6 +34,21 @@ image:
 # slides: example
 ---
 
-A major limitation of music generation systems for a specific domain is finite training data. Researchers have augmented data with techniques such as transposition, which loses compositional information specific to its original key, or by extracting multiple short segments from each piece, which loses long-term coherence. We propose an alternative method which augments a dataset limited in training examples by using an existing model’s generated output weighted by a hand-crafted score function, to feed back as new training data to update the model. We try this method with DeepBach, a model trained to generate chorales in the style of Bach, a task where gold data is inherently limited to the 389 chorales Bach wrote in his lifetime. While this is a large output for a single composer, it is not enough for training deep models. Our hypothesis is that training on high-quality generated output is more useful than training on simple transformations of the same music.
+A major limitation of music generation systems for a specific domain is finite training data. Consider generating Bach chorales, Chopin nocturnes, or Beatles hits. Training data in this case is limited to the compositions during the real composer's lifetime. Researchers commonly approach this problem by artificially augmenting the dataset with synthetic data, a technique known as _dataset augmentation_. In the musical domain, a natural and easy way is by transposing examples in all keys, which loses information specific to the original key. Another technique is to extract many short segments from each piece, which loses long-term coherence.
 
-This is very much a work in progress and we hope to use our class project as an opportunity to be extra creative, so please let us know if you have any thoughts or suggestions!
+We propose an alternative method for data augmentation, which we call _augmentative generation_. Essentially we generate music, filter it by a hand-crafted score function, and feed it back as new training data to update the model. We try this method with DeepBach, a model trained to generate chorales in the style of Bach, a task where gold data is inherently limited to the 389 chorales Bach wrote in his lifetime. Our hypothesis is that training on high-quality generated output is more useful than training on simple transformations of the same music.
+
+## Proposed method
+### DeepBach
+### Score function
+#### Notes
+#### Rhythm
+#### Interval
+#### Parallel errors
+#### Other errors
+
+## Experiments
+### Model details
+### Data
+
+## Results
