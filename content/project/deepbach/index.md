@@ -110,16 +110,16 @@ Unfortunately our experiments were conducted under the grueling demands of final
 See if you can discriminate between Bach chorales and generated chorales yourself! In each of the following pairs, one chorale is composed by Bach and one is generated. The answers are behind the references.
 
 1. The generated chorale comes from DeepBach (trained on Bach chorales), which is our base model.
-{{< audio wav="4_real.wav" >}}
-{{< audio wav="4_fake.wav" >}}
+{{< audio wav="../../audio/4_real.wav" >}}
+{{< audio wav="../../audio/4_fake.wav" >}}
 
 2. The generated chorale comes from DeepBach (trained on Bach chorales + transpositions), from the original DeepBach paper.
-{{< audio wav="3_fake.wav" >}}
-{{< audio wav="3_real.wav" >}}
+{{< audio wav="../../audio/3_fake.wav" >}}
+{{< audio wav="../../audio/3_real.wav" >}}
 
 3. The generated chorale comes from DeepBach (trained on Bach chorales + augmentative generation), which is our contribution.
-{{< audio wav="6_real.wav" >}}
-{{< audio wav="6_fake.wav" >}}
+{{< audio wav="../../audio/6_real.wav" >}}
+{{< audio wav="../../audio/6_fake.wav" >}}
 
 # Upcoming work and ideas
 1. Every handful of generate-train updates, do another pass through the original Bach chorale training data. This way, we ensure that the model does not "forget" what gold data looks like.
