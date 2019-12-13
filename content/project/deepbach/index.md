@@ -15,12 +15,12 @@ image:
 
 authors: ['admin', 'alex']
 
-# links:
+links:
 # - icon: twitter
 #  icon_pack: fab
 #  name: Follow
 #  url: https://twitter.com/georgecushen
-# url_code: ""
+url_code: "https://github.com/asdfang/CC-AugmentedDeepBach"
 # url_pdf: ""
 # url_slides: ""
 # url_video: ""
@@ -35,14 +35,14 @@ authors: ['admin', 'alex']
 
 Deep learning has become the state-of-the-art approach for music generation, but these networks require massive data. For music generation systems on a specific music domain, such as Bach chorales, Mozart sonatas, or Beatles hits, training data is limited to the real work of musicians during their lifetime. Researchers commonly approach this problem by artificially augmenting the dataset with synthetic data, a technique known as _dataset augmentation_. In the musical domain, a natural way is to transpose music examples in all keys, or to segment examples into many shorter fragments. However, these all suffer musical limitations: the original key signature is deliberately chosen by the composer and typically associated with certain emotions and expressive qualities, and segmenting examples prevents a network from being able to learn the long-term coherence of human-written music.
 
-We propose an alternative method for data augmentation, which we call _augmentative generation_. After training a base model on the original dataset, we generate some output from the model, filter it by a hand-crafted score function, and feed it back to the model as new training data to update the model. This generate-update iteration can be continued until it stops improving the model. We try this method with chorale generation in the style of J.S. Bach, using the [DeepBach]({{< relref "#deepbach_cite" >}}) model. For Bach chorale generation, gold data is inherently limited to the 389 chorales Bach wrote in his lifetime. While this is considered a large output for a single form for a composer, 389 training examples are often not enough in training machine learning models, motivating our proposed solution.
+We propose an alternative method for data augmentation, which we call _augmentative generation_. After training a base model on the original dataset, we generate some output from the model, filter it by a hand-crafted score function, and feed it back to the model as new training data to update the model. These generate-update iterations can be continued until it stops improving the model. We try this method with chorale generation in the style of J.S. Bach, using the [DeepBach]({{< relref "#deepbach_cite" >}}) model. For Bach chorale generation, gold data is inherently limited to the 389 chorales Bach wrote in his lifetime. While this is considered a large output for a single form for a composer, 389 training examples are often not enough in training machine learning models, motivating our proposed solution.
 
-While augmentative generation can be applied to any generation system where training data is limited, the score function must be handcrafted for each domain. We argue that this is a good thing, since a limitation of deep learning techniques compared to handcrafted models is that they do not offer direct ways of controlling generation. But given that we know things about what some widely accepted music should sound like, we believe that a handcrafted function allows musicians to incorporate important domain knowledge into the music generation task, while still using the representational capacity of a neural network. That is, rather than enforcing things about our output, we can enforce things about the input that our model is trained on.
+While augmentative generation can be applied to any generation system where training data is limited, the score function must be handcrafted for each domain. We argue that this is a good thing, since a limitation of deep learning techniques compared to handcrafted models is that they do not offer direct ways of controlling generation. But given that we know some things about what widely accepted music (like Bach chorales or Mozart sonatas) should sound like, we believe that a handcrafted function allows musicians to incorporate important domain knowledge into the music generation task, while still using the representational capacity of a neural network. That is, rather than enforcing things about our output, we can enforce things about the input that our model is trained on.
 
 # Proposed method
 First we train the base model on the original 351 Bach chorales. Compared to the original DeepBach paper, we do not use any transpositions of Bach chorales.
 
-Then, we perform a series of generation-train updates. In each iteration, we generate $N$ chorales and score each one. We set our threshold as the score of the lowest-scoring Bach chorale, with the justification that every real Bach chorale should be selected by our score function. We update the model by training on the selected examples for $M$ epochs.
+Then, we perform a series of generation-train updates. In each iteration, we generate $N$ chorales and score each one. We set our threshold as the score of the lowest-scoring Bach chorale, with the intuition that every real Bach chorale should be selected by our score function. We update the model by training on the selected examples for $M$ epochs.
 
 {{< figure src="../../img/architecture.png" title="Augmentative generation training procedure applied to DeepBach" >}}
 
@@ -84,19 +84,19 @@ $$\frac{\text{error to note ratio of chorale }c}{\text{error to note ratio of Ba
 The other errors distribution is the distribution of hidden 5ths, hidden octaves, voice overlaps, voice crossings, and voice range violations. Similarly to the previous feature, $w^\text{errors}$ includes a term to account for the absolute count of errors, in addition to the relative counts in the distribution.
 
 # Experiments
-In our experiments, we first show that the score function effectively distinguishes real Bach chorales from generations. Then we carry out human evaluations to compare generations of three models: our model trained through augmentative generation on Bach chorales and high-quality generations, our base model trained on only Bach chorales, and the model in the original DeepBach paper trained on Bach chorales and their transpositions.
+In our experiments, we first show that the score function effectively distinguishes real Bach chorales from generations. Then we carry out human evaluations to compare generations of three models: our model trained through augmentative generation, our base model, and the model in the original DeepBach paper.
 ## Evaluating the score function
-Because the score function measures how similar a given chorale is to real Bach chorales, a simple evaluation method is to ensure that real Bach chorales score higher than generated chorales. To see this, we plot the distribution of scores for real Bach chorales and chorales generated by our base model.
+Because the score function measures how similar a given chorale is to real Bach chorales, a simple evaluation method is to validate that real Bach chorales score higher than generated chorales. Therefore, we plot the distribution of scores for real Bach chorales and chorales generated by our base model.
 {{< figure src="../../img/score_distribution.png" title="The score distribution for Bach chorales and generated chorales" width="100%">}}
-These distributions show that Bach chorales score much better on average than generated chorales, which is an indication that the score function serves its purpose of measuring similarity to real Bach chorales. We also see that generated chorales display high variation in quality, which demonstrates the importance of a employing a filter on the generated chorales.
+These plots show that Bach chorales score much better on average than generated chorales, indicating that the score function serves its purpose of measuring similarity to real Bach chorales. We also see that generated chorales display high variation in quality, which demonstrates the importance of an external evaluation metric for generated chorales.
 
 Note that generated chorales which overlap with real chorales in score are the ones that would be selected for training on.
 ## Model details
-We updated the model for $43$ iterations. Each iteration, we generated $50$ training examples. Of note, after this process our model saw less than one-fifth of the training data used in the original DeepBach paper, which consists of Bach chorales and their transpositions.
+We updated the model for $43$ iterations. Each iteration, we generated $50$ training examples for consideration. Of note, after this process our model saw less than one-fifth of the training data used in the original DeepBach paper, which consists of Bach chorales and their transpositions.
 ## Evaluation
 In the paired discrimination task, participants with music training are presented with pairs of audio clips where one is a real Bach chorale and one is generated output. The generated output comes from one of three models: our model trained through augmentative generation on Bach chorales and high-quality generations, our base model trained on only Bach chorales, and the model in the original DeepBach paper trained on Bach chorales and their transpositions. Participants are told that not all generated outputs are produced by the same model. We then compare human accuracy at detecting generated music for each model.
 
-For preliminary experiments, we have $n=1$ participant with a conservatory degree in piano performance. We presented 30 pairs of audio samples, using $30$ Bach chorales and $10$ randomly selected generations from each model.
+For preliminary experiments, we have $n=1$ participant with a conservatory degree in piano performance. We presented 30 pairs of audio samples, using $30$ Bach chorales and $10$ randomly selected generations from each model. Each audio sample represents $4$ measures of music, rendered with MuseScore at $80$ beats per minute.
 
 | Model                                                         | Accuracy |
 |---------------------------------------------------------------|----------|
