@@ -92,7 +92,7 @@ These plots show that Bach chorales score much better on average than generated 
 
 Note that based on our score threshold, the generated chorales which which would be selected can be visualized as those that "overlap" with real chorales in the score distribution.
 ## Model details
-We updated the model for $43$ iterations. Each iteration, we generated $50$ training examples for consideration. Of note, after this process our model saw less than one-fifth of the training data used in the original DeepBach paper, which consists of Bach chorales and their transpositions.
+We updated the model for $43$ iterations. Each iteration, we generated $50$ training examples for consideration. We train on the selected chorales for $2$ epochs. Of note, after this process our model saw less than one-fifth of the training data used in the original DeepBach paper, which consists of Bach chorales and their transpositions.
 ## Evaluation
 In the paired discrimination task, participants with music training are presented with pairs of audio clips where one is a real Bach chorale and one is generated output. The generated output comes from one of three models: our model trained through augmentative generation on Bach chorales and high-quality generations, our base model trained on only Bach chorales, and the model in the original DeepBach paper trained on Bach chorales and their transpositions. Participants are told that not all generated outputs are produced by the same model. We then compare human accuracy at detecting generated music for each model.
 
