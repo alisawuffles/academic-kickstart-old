@@ -32,12 +32,14 @@ url_code: "https://github.com/alisawuffles/multidef"
 # slides: example
 ---
 
-Word embeddings capture syntactic and semantic information about words. Definition modeling aims to make the semantic content in each embedding explicit, by outputting a natural language definition based on the embedding. However, existing definition models are limited in their ability to generate accurate definitions for different senses of the same word. In this paper, we introduce a new method that enables definition modeling for multiple senses. Some selected examples are shown below.
+Word embeddings are vector representations of words that form the foundation for many NLP tasks. While they have been shown to capture semantic similarities and encode analogical relations between words, these comparison tasks only evaluate an embedding’s information indirectly. In contrast, the task of generating natural language definitions from word embeddings provides a more transparent view of the information captured in a word embedding.
+
+However, existing definition models are limited in their ability to generate accurate definitions for different senses of the same word. In this paper, we introduce a new method that enables definition modeling for multiple senses. Some selected examples are shown below.
 
 {{< figure src="../../img/multidef_ex.png" title="Selected examples of the multi-sense definition model's outputs" width="50%">}}
 
 ## Quantitative analysis of error types
-In my project, my goal was to better understand the settings under which our best model (W2MDEF-GS) succeeds and failed.
+In my project, my goal was to better understand the settings under which our best model (W2MDEF-GS) succeeds and fails.
 
 To evaluate the generated definitions, we manually label outputs as one of four categories: ${\bf I}$ the output is correct; ${\bf II}$ the output has _either_ a syntax/fluency error or a semantic issue, but not both; ${\bf III}$ the output has both a syntactic and semantic error but is not completely wrong; and ${\bf IV}$ where the output is completely wrong. When evaluating precision and recall, the four labeling categories are given scores $1.0$, $0.6$, $0.3$, and $0.0$ respectively.  A breakdown of the error types is shown below.
 
@@ -55,3 +57,5 @@ In a separate analysis of part of speech, I found that adjectives achieve the hi
 |noun|0.30|10.1|
 |adv|0.32|7.2|
 |verb|0.31|5.9|
+
+This work in definition modeling for single words led me to my next project, where I generate definitions for [word compounds]({{< relref "noun-compounds/index.md" >}})!
