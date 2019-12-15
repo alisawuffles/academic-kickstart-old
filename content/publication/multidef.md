@@ -33,8 +33,6 @@ tags:
 featured: true
 
 links:
-- name: ArXiv
-  url: https://arxiv.org/abs/1909.09483
 url_pdf: https://arxiv.org/pdf/1909.09483.pdf
 # url_code: 'https://github.com/lrkmr/w2mdef'
 # url_dataset: '#'

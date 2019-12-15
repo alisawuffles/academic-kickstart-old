@@ -14,13 +14,11 @@ image:
   focal_point:
   preview_only: True
 
-# links:
-# - icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
+links:
+- name: Paper
+  url: "https://alisawuffles.github.io/publication/multidef"
 url_code: "https://github.com/alisawuffles/multidef"
-url_pdf: "https://arxiv.org/pdf/1909.09483.pdf"
+# url_pdf: "https://arxiv.org/pdf/1909.09483.pdf"
 # url_slides: ""
 # url_video: ""
 
