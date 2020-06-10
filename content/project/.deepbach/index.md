@@ -42,7 +42,7 @@ We try this method with chorale generation in the style of J.S. Bach, using the 
 While augmentative generation can be applied to any generation system where training data is limited, the score function must be handcrafted for each domain. We argue that this is a good thing, since a limitation of deep learning techniques compared to handcrafted models is that they do not offer direct ways of controlling generation. But given that we know some things about what widely accepted music (like Bach chorales or Mozart sonatas) should sound like, we believe that a handcrafted function allows musicians to incorporate important domain knowledge into the music generation task, while still using the representational capacity of a neural network. That is, rather than enforcing things about our output, we can enforce things about the input that our model is trained on.
 
 # Proposed method
-First we train the base model on the original 351 Bach chorales. Compared to the original DeepBach paper, we do not use any transpositions of Bach chorales.
+First we train the base model on the original 351 Bach chorales. Unlike the original DeepBach paper, we do not use any transpositions of Bach chorales.
 
 Then, we perform a series of generation-train updates. In each iteration, we generate $N$ chorales and score each one. We set our threshold as the score of the lowest-scoring Bach chorale, with the intuition that every real Bach chorale should be selected by our score function. We update the model by training on the selected examples for $M$ epochs.
 
