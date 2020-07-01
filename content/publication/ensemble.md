@@ -2,6 +2,8 @@
 title: "Model Selection for Deep Audio Source Separation via Clustering Analysis"
 authors:
 - admin
+- Alex Fang
+- Gaëtan Hadjeres
 - Prem Seetharaman
 - Bryan Pardo
 date: "2019-10-01"
@@ -18,7 +20,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: Submitted to the IEEE International Workshop on Machine Learning for Signal Processing (MLSP)
-publication_short: Under review
+# publication_short: Under review
 
 abstract: Audio source separation is the process of separating a mixture (e.g. a pop band recording) into isolated sounds from individual sources (e.g. just the lead vocals). Deep learning models are the state-of-the-art in source separation, given that the mixture to be separated is similar to the mixtures the deep model was trained on. This requires the end user to know enough about each model's training to select the correct model for a given audio mixture. In this work, we automate selection of the appropriate model for an audio mixture. We present a confidence measure that does not require ground truth to estimate separation quality, given a deep model and audio mixture. We use this confidence measure to automatically select the model output with the best predicted separation quality. We compare our confidence-based ensemble approach to using individual models with no selection, to an oracle that always selects the best model and to a random model selector. Results show our confidence-based ensemble significantly outperforms the random ensemble over general mixtures and approaches oracle performance for music mixtures.
 
