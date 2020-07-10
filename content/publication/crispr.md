@@ -36,7 +36,7 @@ links:
 url_pdf: https://cjur.ca/wp-content/uploads/2018/06/Discourse-Surrounding-CRISPRCAS9.pdf
 # url_code: 'https://github.com/lrkmr/w2mdef'
 # url_dataset: '#'
-url_poster: 'static/files/posters/REX-Poster-Final.pdf'
+url_poster: 'files/posters/REX-Poster-FINAL.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'

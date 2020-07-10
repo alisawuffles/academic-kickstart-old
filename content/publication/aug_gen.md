@@ -2,11 +2,11 @@
 title: "Incorporating Music Knowledge in Continual Dataset Augmentation for Music Generation"
 authors:
 - admin
-- Alexander Fang
+- Alex Fang
 - Gaëtan Hadjeres
 - Prem Seetharaman
 - Bryan Pardo
-date: "2020-07-18"
+date: "2020-07-20"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -35,7 +35,7 @@ tags:
 featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/2006.13331.pdf
+url_pdf: https://interactiveaudiolab.github.io/assets/papers/Liu2020-MLMD.pdf
 url_code: 'https://github.com/asdfang/constraint-transformer-bach'
 # url_dataset: '#'
 # url_poster: '#'

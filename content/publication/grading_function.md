@@ -1,7 +1,7 @@
 ---
 title: "Bach or Mock? A Grading Function for Chorales in the Style of J.S. Bach"
 authors:
-- Alexander Fang
+- Alex Fang
 - admin
 - Gaëtan Hadjeres
 - Prem Seetharaman
@@ -36,7 +36,7 @@ tags:
 featured: true
 
 links:
-url_pdf: https://arxiv.org/abs/2006.13329.pdf
+url_pdf: https://interactiveaudiolab.github.io/assets/papers/Fang2020-MLMD.pdf
 url_code: 'https://github.com/asdfang/constraint-transformer-bach'
 # url_dataset: '#'
 # url_poster: '#'

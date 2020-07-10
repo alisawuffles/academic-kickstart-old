@@ -14,11 +14,11 @@ role: ''
 
 # Organizations/Affiliations
 organizations:
-- name: Northwestern University
+- name: University of Washington
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 'Undergraduate researcher at Northwestern interested in NLP and computer processing of audio & music'
+bio: 'Incoming first-year PhD student in the UW NLP group'
 
 interests:
 - Natural language processing
@@ -27,6 +27,9 @@ interests:
 
 education:
   courses:
+  - course: PhD candidate
+    institution: University of Washington
+    year: 2020 - present
   - course: BA in Computer Science, Mathematics
     institution: Northwestern University
     year: 2020
