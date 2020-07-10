@@ -3,7 +3,6 @@ title: "Model Selection for Deep Audio Source Separation via Clustering Analysis
 authors:
 - admin
 - Alex Fang
-- Gaëtan Hadjeres
 - Prem Seetharaman
 - Bryan Pardo
 date: "2019-10-01"
