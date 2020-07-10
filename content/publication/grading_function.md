@@ -3,7 +3,6 @@ title: "Bach or Mock? A Grading Function for Chorales in the Style of J.S. Bach"
 authors:
 - Alex Fang
 - admin
-- Gaëtan Hadjeres
 - Prem Seetharaman
 - Bryan Pardo
 date: "2020-07-18"
