@@ -1,7 +1,7 @@
 ---
 title: "Bach or Mock? A Grading Function for Chorales in the Style of J.S. Bach"
 authors:
-- Alex Fang
+- Alexander Fang
 - admin
 - Gaëtan Hadjeres
 - Prem Seetharaman
