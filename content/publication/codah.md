@@ -37,7 +37,7 @@ links:
 url_pdf: https://www.aclweb.org/anthology/W19-2008.pdf
 url_code: 'https://github.com/Websail-NU/CODAH'
 # url_dataset: '#'
-# url_poster: '#'
+url_poster: 'files/posters/CODAH-Poster-FINAL.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'
