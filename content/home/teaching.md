@@ -22,10 +22,6 @@ _peer mentor_, with Professor [Jason Hartline](https://sites.northwestern.edu/ha
 
 _peer mentor_, with Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/) (Spring 2019)
 
-#### EECS 396/496: Statistical Machine Learning
-
-_course developer_, with Professor [Han Liu](http://magics.cs.northwestern.edu/index.html) (Winter 2019)
-
 #### CPSC 121: Models of Computation
 
 _undergraduate TA_, with Professors [Alice Gao](https://cs.uwaterloo.ca/~a23gao/), [Steve Wolfman](https://www.cs.ubc.ca/~wolf/), [Ryan Vogt](https://www.cs.ubc.ca/~vogtr/) (Term 2 2018)
