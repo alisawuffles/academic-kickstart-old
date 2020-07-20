@@ -35,10 +35,10 @@ tags:
 featured: true
 
 links:
-url_pdf: https://interactiveaudiolab.github.io/assets/papers/Liu2020-MLMD.pdf
+url_pdf: https://arxiv.org/pdf/2006.13331.pdf
 url_code: 'https://github.com/asdfang/constraint-transformer-bach'
 # url_dataset: '#'
-# url_poster: '#'
+url_poster: 'files/posters/aug_gen_FINAL.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'

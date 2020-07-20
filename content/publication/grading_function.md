@@ -35,10 +35,10 @@ tags:
 featured: true
 
 links:
-url_pdf: https://interactiveaudiolab.github.io/assets/papers/Fang2020-MLMD.pdf
+url_pdf: https://arxiv.org/pdf/2006.13329.pdf
 url_code: 'https://github.com/asdfang/constraint-transformer-bach'
 # url_dataset: '#'
-# url_poster: '#'
+url_poster: 'files/posters/grading_function_FINAL.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: '#'
