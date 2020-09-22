@@ -19,7 +19,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In ICML 2020 Machine Learning for Media Discovery (ML4MD) Workshop
+publication: Machine Learning for Media Discovery Workshop (ML4MD) at ICML 2020
 publication_short: In *ICML* 2020 workshop
 
 abstract: Deep learning has rapidly become the state-of-the-art approach for music generation. However, training a deep model typically requires a large training set, which is often not available for specific musical styles. In this paper, we present augmentative generation (Aug-Gen), a method of dataset augmentation for any music generation system trained on a resource-constrained domain. The key intuition of this method is that the training data for a generative system can be augmented by examples the system produces during the course of training, provided these examples are of sufficiently high quality and variety. We apply Aug-Gen to Transformer-based chorale generation in the style of J.S. Bach, and show that this allows for longer training and results in better generative output.

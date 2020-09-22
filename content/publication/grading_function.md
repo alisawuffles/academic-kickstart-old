@@ -18,7 +18,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In ICML 2020 Machine Learning for Media Discovery (ML4MD) Workshop
+publication: Machine Learning for Media Discovery Workshop (ML4MD) at ICML 2020
 publication_short: In *ICML* 2020 workshop
 
 abstract: Deep generative systems that learn probabilistic models from a corpus of existing music do not explicitly encode knowledge of a musical style, compared to traditional rule-based systems. Thus, it can be difficult to determine whether deep models generate stylistically correct output without expert evaluation, but this is expensive and time-consuming. Therefore, there is a need for automatic, interpretable, and musically-motivated evaluation measures of generated music. In this paper, we introduce a grading function that evaluates four-part chorales in the style of J.S. Bach along important musical features. We use the grading function to evaluate the output of a Transformer model, and show that the function is both interpretable and outperforms human experts at discriminating Bach chorales from model-generated ones.

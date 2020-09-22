@@ -45,6 +45,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=en&user=3-lTFAwAAAAJ
+- icon: semantic-scholar
+  icon_pack: ai
+  link: https://www.semanticscholar.org/author/Alisa-Liu/94500147
 - icon: github
   icon_pack: fab
   link: https://github.com/alisawuffles
