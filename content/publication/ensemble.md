@@ -35,11 +35,11 @@ featured: true
 
 links:
 url_pdf: https://arxiv.org/pdf/1910.12626.pdf
+url_slides: 'files/slides/dcase_slides.pdf'
 # url_code: 'https://github.com/pseeth/thesis_experiments/tree/confidence'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-# url_slides: ''
 # url_source: '#'
 # url_video: '#'
 
