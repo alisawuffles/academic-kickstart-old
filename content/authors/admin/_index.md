@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: PhD candidate
+  - course: PhD student
     institution: University of Washington
     year: 2020 - present
   - course: BA in Computer Science, Mathematics
