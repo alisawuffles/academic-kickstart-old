@@ -34,14 +34,14 @@ tags:
 featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/1910.12626.pdf
-url_slides: 'files/slides/dcase_slides.pdf'
+- name: Slides
+  url: 'files/slides/dcase_slides.pdf'
+url_pdf: http://dcase.community/documents/workshop2020/proceedings/DCASE2020Workshop_Liu_89.pdf
 # url_code: 'https://github.com/pseeth/thesis_experiments/tree/confidence'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-# url_source: '#'
-# url_video: '#'
+url_video: 'https://youtu.be/mG7wb3HCSo4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
