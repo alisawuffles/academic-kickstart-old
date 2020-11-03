@@ -66,6 +66,4 @@ email: alisa@u.northwestern.edu
 user_groups: []
 ---
 
-Hi! I am currently a research intern on the [MOSAIC](https://mosaic.allenai.org/) team at [Allen Institute for AI](https://allenai.org/). I graduated this Spring from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to work in the fields of natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/), who have been the kindest of mentors and deeply formative to my intellectual interests.
-
-I am super excited to join the [University of Washington](http://www.washington.edu/) in Fall 2020 as a PhD student in the CSE department.
+Hi! I am a first-year PhD student in computer science at the University of Washington, advised by [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and [Noah Smith](https://homes.cs.washington.edu/~nasmith/). I graduated this Spring from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to work in the fields of natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
