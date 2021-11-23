@@ -66,4 +66,6 @@ email: alisa@u.northwestern.edu
 user_groups: []
 ---
 
-Hi! I am a first-year PhD student in computer science at the University of Washington, advised by [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and [Noah Smith](https://homes.cs.washington.edu/~nasmith/). I graduated this Spring from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to work in the fields of natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
+Hi there! I am a second-year PhD student in computer science at the University of Washington, advised by [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and [Noah Smith](https://homes.cs.washington.edu/~nasmith/). 
+
+Previously, I graduated in June 2020 from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to work in the fields of natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
