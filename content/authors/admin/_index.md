@@ -18,12 +18,11 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 'Incoming first-year PhD student in the UW NLP group'
+bio: '2nd year PhD student in UW NLP group'
 
 interests:
 - Natural language processing
 - Machine learning
-- Machine processing of music and audio
 
 education:
   courses:
@@ -59,13 +58,13 @@ social:
   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: alisa@u.northwestern.edu
+email: alisaliu@cs.washington.edu
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups: []
 ---
 
-Hi there! I am a second-year PhD student in computer science at the University of Washington, advised by [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and [Noah Smith](https://homes.cs.washington.edu/~nasmith/). 
+Hi there! I am a second-year PhD student in computer science at the [University of Washington](https://www.cs.washington.edu/), advised by [Yejin Choi](https://homes.cs.washington.edu/~yejin/) and [Noah Smith](https://homes.cs.washington.edu/~nasmith/). I do research in natural language processing.
 
-Previously, I graduated in June 2020 from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to work in the fields of natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
+I graduated in June 2020 from [Northwestern University](https://www.northwestern.edu/) with majors in computer science and math. There, I was super fortunate to learn about the world of research through natural language processing and computer audition with Professor [Doug Downey](https://users.cs.northwestern.edu/~ddowney/), Professor [Bryan Pardo](https://users.cs.northwestern.edu/~pardo/), and Dr. [Prem Seetharaman](https://pseeth.github.io/).
