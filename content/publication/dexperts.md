@@ -35,6 +35,8 @@ featured: true
 links:
 url_pdf: https://aclanthology.org/2021.acl-long.522.pdf
 url_code: 'https://github.com/alisawuffles/DExperts'
+- name: Slides
+  url: 'files/slides/dexperts_slides.pdf'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
